@@ -1,0 +1,27 @@
+
+.header{
+    background-color: #002060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    height: 3em;
+}
+ 
+.header .btns button{
+    background: none;
+    margin-left: 1em;
+    border: 1px solid #2ABCFE ;
+    color: white;
+    width: 12rem;
+    height: 3em;
+    font-size: 15px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 30px;
+}
+

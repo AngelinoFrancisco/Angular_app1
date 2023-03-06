@@ -1,0 +1,12 @@
+
+<app-header (candidateExport)="onCandidate()" (backHome)="onBackHome()" ></app-header>
+
+<app-home  (chooseElement)="onChooseElement($event)" 
+[users]="animals" 
+(btnUpdateEvent)="onUpdateEvent()" 
+*ngIf="!insert && !update"
+(btnExcluir)="onDeleteElement($event)" 
+[choosedElement]="control" 
+></app-home> 
+<app-insert *ngIf="insert" (btnInsert)="onInsertElement($event)"></app-insert>
+<app-update *ngIf="update"  [Choosed]="animalUpdate" (btnUpdateElement)="onUpdateElement($event)"></app-update>

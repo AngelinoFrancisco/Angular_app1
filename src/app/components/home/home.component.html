@@ -1,0 +1,31 @@
+
+<div class="app">
+    <header>
+        <p class="titulo">Todos os Armamentos</p>
+        <div class="buttons"  *ngIf="choosedElement" >
+            <h3>{{choosedName}}</h3>
+            <button class="btn btn-success" (click)="updateEvent()"> Atualizar</button>
+            <button class="btn btn-danger" (click)="deleteElement()"  > excluir</button>
+        </div>
+
+    </header> 
+
+    <section >
+
+        <article class="header" >
+            <p class="nome">Nome</p>
+            <p class="quant">Quantidade</p>
+            <p class="unity">Unidade</p>
+
+        </article>
+        <div class="contents" >
+
+            <div class="body" *ngFor="let animal of users"  (click)="onClick(animal)" >
+                <p class="nome">{{animal.name}}</p>
+                <p class="quant">{{animal.age}}</p>
+                <p class="unity">{{animal.type}}</p>
+            </div>
+        </div>
+       
+    </section>
+</div> 

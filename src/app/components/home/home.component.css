@@ -1,0 +1,86 @@
+
+.app{
+    
+    margin-top: 2em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.app header, section{ 
+    width: 50%;
+}
+
+section{
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 3px;
+}
+
+
+.titulo{
+    font-size: 25px;
+} 
+
+section .header{
+    border-bottom: 2px solid  rgb(236, 27, 236);
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+section .header p{
+    font-size: 20px;
+}
+
+.contents{
+    width: 100%;
+    height: 100%; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.contents  .body{
+
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+.contents .body:active, .contents .body:hover{
+    border-left: 4px solid blue;
+
+}
+.contents .body p{
+    background-color: white;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    border-radius: 1em;
+}
+
+.buttons{
+    margin-left: 26em; 
+    transform: translateY(-50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons button{
+    margin-left: 2em;
+}

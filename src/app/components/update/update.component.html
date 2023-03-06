@@ -1,0 +1,26 @@
+ 
+ 
+ 
+
+<div class="app">
+    <form action="" (submit)="UpdateAnimal()" [formGroup]="animalForm" #formDir="ngForm">
+        <div *ngIf="name.invalid && formDir.submitted " class="validation-error">
+            <p *ngIf="name.errors?.['required']"> Nome Obrigatorio!</p>
+        </div>
+        <input type="text" name="nome"    placeholder="Nome" class="form-control" formControlName="name">
+
+        <div *ngIf="age.invalid && formDir.submitted" class="validation-error">
+            <p *ngIf="age.errors?.['required']"> Age Obrigatorio!</p>
+        </div>
+        <input type="number" name="quant"  placeholder="Quantidade" class="form-control" formControlName="age">
+       
+        <div *ngIf="type.invalid && formDir.submitted " class="validation-error">
+            <p *ngIf="type.errors?.['required']"> Type Obrigatorio!</p>
+        </div>
+        <input type="text" name="unity"    placeholder="Nome da Unidade" class="form-control" formControlName="type">
+        <button type="submit" class="btn btn-success" >Salvar</button>
+
+    </form>
+</div> 
+
+ 

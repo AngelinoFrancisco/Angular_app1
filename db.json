@@ -1,0 +1,52 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "morcego 1",
+      "age": 2121,
+      "type": "estranho 1"
+    },
+    {
+      "id": 7,
+      "name": "Braulio",
+      "age": 19,
+      "type": "Capalo 2"
+    },
+    {
+      "id": 9,
+      "name": "Caique",
+      "age": 2323,
+      "type": "PodCast"
+    },
+    {
+      "id": 10,
+      "name": "morcego 2",
+      "age": 3434,
+      "type": "estranho 2"
+    },
+    {
+      "id": 11,
+      "name": "Pistolas",
+      "age": 120,
+      "type": "Fake News"
+    },
+    {
+      "id": 12,
+      "name": "camada 2",
+      "age": 2323,
+      "type": "modelo tcp"
+    },
+    {
+      "id": 13,
+      "name": "Carros",
+      "age": 434000,
+      "type": "Tchivala"
+    },
+    {
+      "id": 14,
+      "name": "Tanques",
+      "age": 50000,
+      "type": "Sumbe"
+    }
+  ]
+}
